@@ -1,0 +1,41 @@
+#progressbars{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:left;
+}
+
+.progressbar{
+    width:500px;
+    height:10px;
+    background-color:gray;
+    border-radius:1em;
+    position:relative;
+}
+
+.level{
+    background-color:rgb(34, 201, 201);
+    height:10px;
+    position:relative;
+    border-radius:1em 0 0 1em;
+}
+
+.percentage{
+    color:gray;
+    float:right;
+    font-weight:700;
+    position:relative;
+    bottom:20px;
+}
+
+#frontendbar>.level{
+    width:90%;
+}   
+
+#backendbar>.level{
+    width:60%;
+}
+
+#designbar>.level{
+    width:50%;
+}

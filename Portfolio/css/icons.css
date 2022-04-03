@@ -1,0 +1,57 @@
+.groupereseau>ul>a>*{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+}
+
+.facebook:before{
+    content:"\f082";
+}
+
+.groupereseau>ul>a>.facebook{
+    background-color: #3b5999;
+    border-color: #3b5999;
+}
+
+.insta:before{
+    content:"\f16d";
+}
+
+.groupereseau>ul>a>.insta{
+    background-color: #e4405f;
+    border-color: #e4405f;
+}
+
+.twitter:before{
+    content:"\f081";
+}
+
+.groupereseau>ul>a>.twitter{
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+}
+
+.github:before{
+    content:"\f092";
+}
+
+.groupereseau>ul>a>.github{
+    background-color: #222;
+    border-color: #222;
+}
+
+.linkedin:before{
+    content:"\f08c";
+}
+
+.groupereseau>ul>a>.linkedin{
+    background-color: #1da1f2;
+    border-color: #1da1f2;  
+}
+
+#multiskills>.col>span>img{
+    width:30px;
+    height:30px;
+}
+
